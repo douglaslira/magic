@@ -350,6 +350,7 @@
 	
 	var KickAss = new Class({
 		initialize: function() {
+			
 			// Holds all the player instances
 			this.players = [];
 			
@@ -667,7 +668,7 @@
 			// Esc to quit text
 			this.escToQuit = document.createElement('div');
 			this.escToQuit.className = 'KICKASSELEMENT';
-			this.escToQuit.innerHTML = 'Use a barra de espaÃƒÂ§o e seja feliz!';
+			this.escToQuit.innerHTML = 'Use a barra de espaço e seja feliz!';
 			this.container.appendChild(this.escToQuit);
 			
 			this.game.registerElement(this.container);
